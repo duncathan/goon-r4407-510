@@ -424,7 +424,7 @@ About the new airlock wires panel:
 
 	return
 
-/obj/machinery/door/airlock/animate(animation)
+/obj/machinery/door/airlock/animation(animation)
 	switch(animation)
 		if("opening")
 			if(overlays) overlays = null
